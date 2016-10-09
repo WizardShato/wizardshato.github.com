@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#F1F2F3;}
+h3{ font-size:16px; color:#444;}
+.index_body{ margin-top:100px;}
+.pagination{ float:right; margin-top:50px;}
+
+/*公共：顶部导航条*/
+.navbar{ background:#FFF; box-shadow:0 2px 9px 4px #EBECED;}
+.input-group img{ width:16px; height:16px;}
+.input-group .input-group-addon{ cursor:pointer;}
+
+.nav li{ border-left:1px solid #EBEBEB; line-height:30px;}
+.nav li a.dt-registered{ color:#FF4466;}
+.nav li a.dt-registered:hover{  background:#FF4466; border-radius:5px;  color:#FFF; }
+
+/*公共：轮播图*/
+@media screen and (min-width: 1200px){
+.carousel .carousel-inner  .item img{ height:387px; }
+}
+@media screen and (max-width: 1200px){
+.carousel .carousel-inner  .item img{ height:200px; }
+}
+.carousel-control img{ position: absolute; left:1.23rem; top:50%; margin-top: -33px; }
+
+/*专属：文章推荐标签*/
+.index_lable{ border:1px solid #DEDFE0;  background:#fff;}
+.index_lable h5{ border-bottom:1px solid #DEDFE0; padding:20px 0; font-size:14px; color:#666; margin:0 35px;}
+.index_lable>p{ border-top:1px dotted #D2D2D2; margin:0 35px; padding:20px 0; font-size:12px; color:#000}
+.index_lable_art{padding:15px 0 15px 0; margin:0 12px;}
+.index_lable_art p{ display:inline-block; border-right:1px solid #DEDFE0; padding:0 23px; font-size:12px; color:#000; height:12px; margin:11px 0; }
+
+/*专属：卡片内容*/
+@media screen and (min-width: 1200px){
+	.index_big_box{ margin-right:38px;}
+	.index_box { width:225px; height:324px; border:1px solid #DEDFE0; background:#fff; margin:0 auto; margin-top:20px;}
+	.index_box img{ width:225px; height:225px;}
+	.index_box_word { width:193px; text-align:left; padding-top:8px; margin:0 auto;}
+	.index_box h5{  font-size:12px; color:#444; font-weight:500; line-height:20px;}
+	.index_box h6{ font-size:12px; color:#888; }
+}
+
+@media screen and (max-width: 1200px){
+	.index_box { width:100%; height:102px; border:1px solid #DEDFE0; background:#fff; margin-top:10px; float:left;}
+	.index_box img{ width:100px; height:100px; float:left;}
+	.index_box_word { width:250px; text-align:left; display:inline-block; padding-left:30px; padding-top:5px; float:left;}
+	.index_box h5{  font-size:12px; color:#444; font-weight:500; line-height:20px;}
+	.index_box h6{ font-size:12px; color:#888; }
+
+	}
+	
+.index_footer{ height:50px; border-top:1px solid #DEDFE0; margin-top:30px;}

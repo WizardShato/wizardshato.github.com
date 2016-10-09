@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/*自定义公用部分*/
+body {font-family: arial,"微软雅黑";font-size: 12px;line-height: 1.5;}
+*{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;}
+ol, ul {list-style: outside none none;}
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {font-style: normal;}
+input, button, textarea, select, optgroup, option {font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;}
+fieldset, img, a img,*:visited img {border: 0 none;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+:focus {outline: 0 none;}
+table {border-collapse: collapse;border-spacing: 0;}
+caption, th {text-align: left;}
+sup, sub {font-size: 100%;vertical-align: baseline;}
+blockquote, q {quotes: none;}
+blockquote::before, blockquote::after, q::before, q::after {content: none;}
+
+
