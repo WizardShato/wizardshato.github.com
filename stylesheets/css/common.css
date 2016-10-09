@@ -16,9 +16,3 @@ caption, th {text-align: left;}
 sup, sub {font-size: 100%;vertical-align: baseline;}
 blockquote, q {quotes: none;}
 blockquote::before, blockquote::after, q::before, q::after {content: none;}
-
-/*公共*/
-.index_body{ margin-top:100px;}
-
-
-
