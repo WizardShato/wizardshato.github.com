@@ -11,7 +11,15 @@
 .nav li a.dt-registered:hover{  background:#FF4466; border-radius:5px;  color:#FFF; }
 
 /*专属：头像*/
-.my_head { margin-top:100px;}
+.my_head { padding-top:100px;}
+@media screen and (min-width: 1200px){
 .my_head img{ width:200px;}
 .my_head h3{ font-size:22px; line-height:22px;}
 .my_head h4{ font-size:14px; color:#666; line-height:14px;}
+}
+@media screen and (max-width: 1200px){
+.my_head { text-align:center; background-color:;}
+.my_head img{ width:100px; height:100px; border-radius:50px;}
+.my_head h3{ font-size:22px; line-height:22px;}
+.my_head h4{ font-size:14px; color:#666; line-height:14px;}
+}
