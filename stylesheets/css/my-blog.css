@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*公共：顶部导航条*/
+.navbar{ background:#FFF; box-shadow:0 2px 9px 4px #EBECED;}
+.input-group img{ width:16px; height:16px;}
+.input-group .input-group-addon{ cursor:pointer;}
+
+.nav li{ border-left:1px solid #EBEBEB; line-height:30px;}
+.nav li a.dt-registered{ color:#FF4466;}
+.nav li a.dt-registered:hover{  background:#FF4466; border-radius:5px;  color:#FFF; }
+
+
