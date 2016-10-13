@@ -34,6 +34,7 @@
 @media screen and (max-width: 1200px){
   .my_body{}
   .my_body h3{ font-size:20px;}
+  .my_skill {}
   .my_skill p{ color:#999}
   .my_skill h5{  font-size:20px; border-bottom:1px solid #DEDFE0; color:#666;}
 }
